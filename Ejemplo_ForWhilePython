@@ -1,0 +1,16 @@
+#Ejemplo FOR
+#For se utiliza para poder recorrer los elementos de un objeto 
+#Aquí recorremos una lista de elementos
+dulces = ["Helado", "Chocolate", "Mazapan", "Pastel"]
+
+for dulce in dulces:
+    print("Me gusta el", dulce) 
+
+#Ejemplo While 
+#While se utiliza para repetir la parte de un codigo o un codigo las veces que sean necesarias hasta que se cumpla determinada condición 
+#Aquí contamos hasta el numero que la condicion indique
+contador = 1
+
+while contador <= 11:
+    print(contador)
+    contador += 1
